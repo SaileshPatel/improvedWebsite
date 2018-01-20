@@ -1,2 +1,3 @@
-# improvedWebsite
-A brief idea for a new website. Might become my actual website. 
+#improvedWebsite
+A brief idea for a new website.
+Might become my actual website. 
