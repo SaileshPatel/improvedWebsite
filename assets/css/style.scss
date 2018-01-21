@@ -1,3 +1,27 @@
-.title{
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+$font-style: 18px;
+$heading-stack: 'Open Sans', sans-serif;
+$regular-stack: 'Roboto', sans-serif;
+
+.title {
 	text-align: center;
+	font-size: $font-style*3;
+}
+
+.banner {
+	background-size: cover;
+	background-image: url("../img/MainImage.JPG");
+	height: 60vh;
+
+	p {
+		font-family: $regular-stack;
+		color: #fff;
+			z-index: 10px;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $heading-stack;
+		color: #fff;
+	}
 }

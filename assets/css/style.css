@@ -1,4 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
 .title {
-  text-align: center; }
+  text-align: center;
+  font-size: 54px; }
+
+.banner {
+  background-size: cover;
+  background-image: url("../img/MainImage.JPG");
+  height: 60vh; }
+  .banner p {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    z-index: 10px; }
+  .banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
+    font-family: "Open Sans", sans-serif;
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
