@@ -6,15 +6,21 @@
 .banner {
   background-size: cover;
   background-image: url("../img/MainImage.JPG");
-  height: 80vh; }
-  @media only screen and (max-width: 900px) {
+  height: 60vh;
+  box-shadow: 5px 5px 5px grey; }
+  @media only screen and (max-width: 500px) {
     .banner {
-      height: 40vh; } }
+      height: 20vh; }
+      .banner .title {
+        font-size: 27px; } }
   .banner p {
     font-family: "Roboto", sans-serif;
     color: #fff; }
   .banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
     font-family: "Open Sans", sans-serif;
     color: #fff; }
+
+.main {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
