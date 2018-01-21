@@ -1,18 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
 .title {
   text-align: center;
-  font-size: 54px; }
+  font-size: 72px; }
 
 .banner {
   background-size: cover;
   background-image: url("../img/MainImage.JPG");
-  height: 60vh;
-  box-shadow: 5px 5px 5px grey; }
-  @media only screen and (max-width: 500px) {
+  height: 70vh;
+  box-shadow: 1vh 1vh 1vh grey; }
+  .banner .title {
+    background-color: #8B8B8B;
+    border-radius: 5px;
+    display: inline-block; }
+  @media only screen and (max-width: 1350px) {
+    .banner .title {
+      font-size: 36px; } }
+  @media only screen and (max-width: 700px) {
     .banner {
-      height: 20vh; }
+      height: 40vh; }
       .banner .title {
         font-size: 27px; } }
+  @media only screen and (max-width: 500px) {
+    .banner .title {
+      font-size: 21.6px; } }
   .banner p {
     font-family: "Roboto", sans-serif;
     color: #fff; }

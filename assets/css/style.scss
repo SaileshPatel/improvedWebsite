@@ -6,20 +6,37 @@ $regular-stack: 'Roboto', sans-serif;
 
 .title {
 	text-align: center;
-	font-size: $font-style*3;
+	font-size: $font-style*4;
 }
 
 .banner {
 	background-size: cover;
 	background-image: url("../img/MainImage.JPG");
-	height: 60vh;
-	box-shadow: 5px 5px 5px grey;
+	height: 70vh;
+	box-shadow: 1vh 1vh 1vh grey;
+
+	.title {
+		background-color: #8B8B8B;
+		border-radius: 5px;
+		display: inline-block;
+	}
+
+	@media only screen and (max-width: 1350px){
+		.title{
+			font-size: $font-style*2;
+		}
+	}
+
+	@media only screen and (max-width: 700px){
+		height: 40vh;
+		.title{
+			font-size: $font-style*1.5;
+		}
+	}
 
 	@media only screen and (max-width: 500px){
-		height: 20vh;
-		.title {
-			font-size: $font-style*1.5;
-
+		.title{
+			font-size: $font-style*1.2;
 		}
 	}
 
