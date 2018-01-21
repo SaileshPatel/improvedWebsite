@@ -1,17 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
 .title {
   text-align: center;
-  font-size: 72px; }
+  font-size: 77.4px; }
 
 .banner {
+  position: relative;
   background-size: cover;
   background-image: url("../img/MainImage.JPG");
   height: 70vh;
   box-shadow: 1vh 1vh 1vh grey; }
   .banner .title {
     background-color: #8B8B8B;
-    border-radius: 5px;
-    display: inline-block; }
+    border-radius: 9px;
+    display: inline-block;
+    padding: 0.5% 0.5%; }
   @media (max-width: 1200px) {
     .banner .title {
       font-size: 45px; } }
