@@ -12,12 +12,15 @@ $regular-stack: 'Roboto', sans-serif;
 .banner {
 	background-size: cover;
 	background-image: url("../img/MainImage.JPG");
-	height: 60vh;
+	height: 80vh;
+
+	@media only screen and (max-width: 900px){
+		height: 40vh;
+	}
 
 	p {
 		font-family: $regular-stack;
 		color: #fff;
-			z-index: 10px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {

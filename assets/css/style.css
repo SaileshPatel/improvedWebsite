@@ -6,11 +6,13 @@
 .banner {
   background-size: cover;
   background-image: url("../img/MainImage.JPG");
-  height: 60vh; }
+  height: 80vh; }
+  @media only screen and (max-width: 900px) {
+    .banner {
+      height: 40vh; } }
   .banner p {
     font-family: "Roboto", sans-serif;
-    color: #fff;
-    z-index: 10px; }
+    color: #fff; }
   .banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
     font-family: "Open Sans", sans-serif;
     color: #fff; }
