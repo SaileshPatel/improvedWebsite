@@ -1,35 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
 .title {
   text-align: center;
-  font-size: 77.4px; }
+  font-size: 77.4px;
+}
 
-.banner {
-  position: relative;
+.main-button {
+  text-align: center;
+  float: none;
+  margin: 0 auto;
+}
+
+.header {
   background-size: cover;
   background-image: url("../img/MainImage.JPG");
-  height: 70vh;
-  box-shadow: 1vh 1vh 1vh grey; }
-  .banner .title {
-    background-color: #8B8B8B;
-    border-radius: 9px;
-    display: inline-block;
-    padding: 0.5% 0.5%; }
-  @media (max-width: 1200px) {
-    .banner .title {
-      font-size: 45px; } }
-  @media (max-width: 700px) {
-    .banner {
-      height: 60vh; }
-      .banner .title {
-        font-size: 34.2px; } }
-  .banner p {
-    font-family: "Roboto", sans-serif;
-    color: #fff; }
-  .banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
-    font-family: "Open Sans", sans-serif;
-    color: #fff; }
-
-.main {
-  text-align: center; }
+  height: 40vh;
+}
 
 /*# sourceMappingURL=style.css.map */

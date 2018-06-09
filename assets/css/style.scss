@@ -9,45 +9,14 @@ $regular-stack: 'Roboto', sans-serif;
 	font-size: $font-style*4.3;
 }
 
-.banner {
-	position: relative;
-	background-size: cover;
-	background-image: url("../img/MainImage.JPG");
-	height: 70vh;
-	box-shadow: 1vh 1vh 1vh grey;
-
-	.title {
-		background-color: #8B8B8B;
-		border-radius: 9px;
-		display: inline-block;
-		padding: 0.5% 0.5%;
-	}
-
-	@media (max-width: 1200px){
-		.title{
-			font-size: $font-style*2.5;
-		}
-	}
-
-	@media (max-width: 700px){
-		height: 60vh;
-		.title{
-			font-size: $font-style*1.9;
-		}
-	}
-
-	p {
-		font-family: $regular-stack;
-		color: #fff;
-	}
-
-	h1, h2, h3, h4, h5, h6 {
-		font-family: $heading-stack;
-		color: #fff;
-	}
+.main-button {
+	text-align: center;
+	float: none; 
+	margin: 0 auto;
 }
 
-
-.main {
-	text-align: center;
+.header {
+	background-size: cover;
+	background-image: url("../img/MainImage.JPG");
+	height: 40vh;
 }
