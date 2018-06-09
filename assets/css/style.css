@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
 .title {
   text-align: center;
-  font-size: 77.4px;
+  text-size: 27px;
 }
 
-.main-button {
+.center-align {
   text-align: center;
   float: none;
   margin: 0 auto;
@@ -13,7 +13,20 @@
 .header {
   background-size: cover;
   background-image: url("../img/MainImage.JPG");
-  height: 40vh;
+  height: 35vh;
+}
+
+.jumbotron {
+  padding: 1rem 1rem;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

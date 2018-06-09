@@ -6,10 +6,10 @@ $regular-stack: 'Roboto', sans-serif;
 
 .title {
 	text-align: center;
-	font-size: $font-style*4.3;
+	text-size: $font-style*1.5;
 }
 
-.main-button {
+.center-align {
 	text-align: center;
 	float: none; 
 	margin: 0 auto;
@@ -18,5 +18,19 @@ $regular-stack: 'Roboto', sans-serif;
 .header {
 	background-size: cover;
 	background-image: url("../img/MainImage.JPG");
-	height: 40vh;
+	height: 35vh;
 }
+
+.jumbotron {
+	padding: 1rem 1rem;
+}
+
+.top-buffer { 
+	margin-top:20px; 
+}
+
+.btn-black {
+	background-color:#000000;
+	color:#ffffff;
+}
+
