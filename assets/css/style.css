@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
 .title {
   text-align: center;
-  text-size: 27px;
+  font-size: 90px;
 }
 
 .center-align {
@@ -10,18 +10,26 @@
   margin: 0 auto;
 }
 
-.header {
-  background-size: cover;
-  background-image: url("../img/MainImage.JPG");
-  height: 35vh;
+.profile {
+  border-radius: 50%;
+  height: 45vh;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 .jumbotron {
-  padding: 1rem 1rem;
+  width: 150vh;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 25px;
 }
 
-.top-buffer {
-  margin-top: 20px;
+.row {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .btn-black {
